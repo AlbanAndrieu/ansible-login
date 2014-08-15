@@ -1,0 +1,7 @@
+---
+# For more information about default variables see:
+# http://www.ansibleworks.com/docs/playbooks_variables.html#id26
+#
+
+login_umask: 022
+login_usergroups_enab: 'yes'
