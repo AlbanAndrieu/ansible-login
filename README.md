@@ -1,7 +1,7 @@
 # Ansible Login Role
 
-[![Build Status](https://travis-ci.org/weareinteractive/ansible-role-login.png?branch=master)](https://travis-ci.org/weareinteractive/ansible-role-login)
-[![Stories in Ready](https://badge.waffle.io/weareinteractive/ansible-role-login.svg?label=ready&title=Ready)](http://waffle.io/weareinteractive/ansible-role-login)
+[![Build Status](https://travis-ci.org/weareinteractive/ansible-login.png?branch=master)](https://travis-ci.org/weareinteractive/ansible-login)
+[![Stories in Ready](https://badge.waffle.io/weareinteractive/ansible-login.svg?label=ready&title=Ready)](http://waffle.io/weareinteractive/ansible-login)
 
 > `login` is an [ansible](http://www.ansible.com) role which: 
 > 
@@ -25,7 +25,7 @@ $ arm install franklinkim.login
 Using `git`:
 
 ```
-$ git clone https://github.com/weareinteractive/ansible-role-login.git
+$ git clone https://github.com/weareinteractive/ansible-login.git
 ```
 
 ## Variables
@@ -48,8 +48,8 @@ login_usergroups_enab: 'yes'
 ## Testing
 
 ```
-$ git clone https://github.com/weareinteractive/ansible-role-login.git
-$ cd ansible-role-login
+$ git clone https://github.com/weareinteractive/ansible-login.git
+$ cd ansible-login
 $ vagrant up
 ```
 
