@@ -3,10 +3,10 @@
 - name: Installing packages
   apt: >
     pkg={{ item }}
-    state=latest
+    state=present
   with_items:
     - login
   tags:
     - system
-    - networking
-    - ssh
+    - login
+    - install
